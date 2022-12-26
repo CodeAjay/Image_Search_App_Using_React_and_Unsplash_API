@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-size: 4em;
+  color: #051c33;
+}
+h3 {
+  font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  color: #051c33;
+}
+
+#srch {
+  font-size: 1em;
+  width: ;
+  background-color: #edeff0;
+  padding: 10px 15px;
+  border: 3px solid #d7dbdf;
+  border-right: none;
+  border-radius: 0.35em 0 0 0.35em;
+  outline: none;
+}
+
+.fas {
+  background: #edeff0;
+  padding: 0.9em;
+  border: 3px solid #d7dbdf;
+  border-left: 3px solid #bab2b2;
+  border-radius: 0 0.35em 0.35em 0;
+  cursor: pointer;
+}
+
+.main {
+  height: max-content;
+  padding: 50px 10px;
+}
+
+.main h1 {
+  padding-bottom: 15px;
+}
+
+.Gallery {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.Gallery img {
+  width: 100%;
+  margin: 0px auto;
+  padding: 20px 10px;
+}
+
+@media (max-width: 767px) {
+  .Gallery img {
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px 50px;
+  }
+}
